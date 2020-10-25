@@ -52,7 +52,7 @@
             <nav class="navbar navbar-light bg-light">
                 <div class="content-header text-center">
                     <a id="menu-toggle" href="#" class="glyphicon glyphicon-align-justify btn-menu toggle ">
-                        <i class="fa fa-bars "></i>
+                        <i class="icon fa fa-times "></i>
                     </a>
                     <span class="navbar-brand mb-0 h1 text-center mx-auto text-uppercase">school management system</span>
                 </div>
