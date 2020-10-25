@@ -20,7 +20,29 @@
             <nav class="navbar navbar-dark nav-bg-ligt ">
                 <span class="navbar-brand mb-0 h1"><i class="fas fa-graduation-cap mx-2"></i>Admin panel</span>
             </nav>
+            <div class="profile-clearfix navbar-dark ">
+                <div class="profile-pic">
+                    <img src="./assets/images/img.jpg" class="img-fluid profile-img" alt="">
+                </div>
+                <div class="profile-info">
+                    <span>welcome,</span>
+                    <h6>Admin</h6>
+                </div>
+            </div>
 
+            <div class="nav-links">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fas fa-home mr-3"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-chalkboard-teacher mr-3"></i>Teachers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#"><i class="fas fa-user-graduate mr-3"></i>Students</a>
+                    </li>
+                </ul>
+            </div>
 
         </div>
 
