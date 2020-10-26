@@ -78,6 +78,10 @@ transition: all 0.4s ease 0s;
     padding: 0 20px;
     transition: all 0.3s linear;
 }
+.active-link{
+  background: var(--light-dark) !important;
+  color: var(--light-white) !important;
+}
 .nav-item .nav-link{
     color: var(--light-gray);
     transition: all 0.3s linear;
@@ -139,11 +143,5 @@ transition: all 0.4s ease 0s;
   
   #menu-toggle {
     display: inline-block;
-  }
-  
-  .inset {
-    padding: 15px;
-  }
-  
   }
   
