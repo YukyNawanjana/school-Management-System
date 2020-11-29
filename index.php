@@ -1,3 +1,15 @@
+<?php
+
+if(isset($_POST['loginBtn'])){
+
+
+    header("Location: home.php");
+}
+
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,18 +21,18 @@
 <body>
     <div class="container d-flex align-items-center justify-content-center" style="height:100vh;">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="card py-3">
+                <div class=" py-3">
                     <div class="card-body">
                         <h1 class="text-center">Log In</h1>
                             <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_eTM2vQ.json" class="mx-auto"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
-                        <form>
+                        <form action="index.php" method="POST">
                             <div class="form-group">
                                 <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="Email">
                             </div>
                             <div class="form-group">
                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                             </div>
-                            <button type="submit" class="btn btn-success btn-block">Submit</button>
+                            <button type="submit" class="btn btn-success btn-block" name="loginBtn">Submit</button>
                         </form>
                     </div>
                 </div>
