@@ -33,7 +33,7 @@
             <div class="nav-links">
                 <ul class="navbar-nav">
                     <li class="nav-item ">
-                        <a class="nav-link" href="#"><i class="fas fa-home mr-3"></i>Home</a>
+                        <a class="nav-link" href="home.php"><i class="fas fa-home mr-3"></i>Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-chalkboard-teacher mr-3"></i>Teachers</a>
@@ -59,13 +59,80 @@
             </nav>
 
 
-            aaaaaaaaaaaaaaaaaaaaa
+            <div class="container-fluid">
+                <div class="row my-3">
+                    <div class="col-lg-8 col-md-8 col-6">
+                       <h1>Students</h1>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-6  d-flex align-items-center justify-content-end">
+                        <button type="button" class="btn btn-success " data-toggle="modal" data-target="#exampleModal">
+                            Add Student
+                        </button>
+                    </div>
+                   
+                </div>
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                    <table class="table table-striped">
+                    <thead>
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                    </div>
+                </div>
+            </div>
             
-
         </div>
 
     </div>
 
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            ...
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!-- end of modal -->
     
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
